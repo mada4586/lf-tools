@@ -5,3 +5,7 @@ route add 172.31.234.97 mask 255.255.255.255 %LEANFORGE_IP%
 route add 104.45.75.131 mask 255.255.255.255 %LEANFORGE_IP%
 :: grafana
 route add 172.16.64.132 mask 255.255.255.255 %LEANFORGE_IP%
+:: JetBrains license server
+route add 13.81.108.99 mask 255.255.255.255 %LEANFORGE_IP%
+:: Artifactory
+route add 52.16.105.122 mask 255.255.255.255 %LEANFORGE_IP%

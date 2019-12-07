@@ -1,0 +1,1 @@
+docker run -d -p 3306:3306 --name mysql_57 -e MYSQL_ALLOW_EMPTY_PASSWORD=true mysql:5.7
