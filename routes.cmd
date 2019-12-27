@@ -9,3 +9,11 @@ route add 172.16.64.132 mask 255.255.255.255 %LEANFORGE_IP%
 route add 13.81.108.99 mask 255.255.255.255 %LEANFORGE_IP%
 :: Artifactory
 route add 52.16.105.122 mask 255.255.255.255 %LEANFORGE_IP%
+:: Kibana - test
+route add 172.16.64.4 mask 255.255.255.255 %LEANFORGE_IP%
+:: Jumphost - test
+route add 10.128.2.181 mask 255.255.255.255 %LEANFORGE_IP%
+:: Jumphost - review
+route add 10.136.2.181 mask 255.255.255.255 %LEANFORGE_IP%
+:: Jumphost - live
+route add 10.132.2.181 mask 255.255.255.255 %LEANFORGE_IP%
