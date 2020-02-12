@@ -14,6 +14,6 @@ route add 172.16.64.4 mask 255.255.255.255 %LEANFORGE_IP%
 :: Jumphost - test
 route add 10.128.2.181 mask 255.255.255.255 %LEANFORGE_IP%
 :: Jumphost - review
-route add 10.136.2.181 mask 255.255.255.255 %LEANFORGE_IP%
+route add 172.16.64.148 mask 255.255.255.255 %LEANFORGE_IP%
 :: Jumphost - live
 route add 10.132.2.181 mask 255.255.255.255 %LEANFORGE_IP%

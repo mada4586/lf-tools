@@ -5,4 +5,4 @@ set GRADLE_HOME=%GRADLE_5_6_2%
 
 set PATH=%JAVA_HOME%\bin;%GRADLE_HOME%\bin;%PATH%
 
-cd c:\src
+cd %SRC%
