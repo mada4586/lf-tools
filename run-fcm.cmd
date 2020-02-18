@@ -3,9 +3,10 @@
 set JAVA_HOME=%JAVA_8%
 set GRADLE_HOME=%GRADLE_4_7%
 
-set PATH=%JAVA_8%\bin;%GRADLE_HOME%\bin;%PATH%
+set PATH=%JAVA_HOME%\bin;%GRADLE_HOME%\bin;%PATH%
 
-cd c:\src\file-conversion-microservice
+%DEV_DRIVE%:
+cd %SRC%\file-conversion-microservice
 call gradle assemble
 
 set JAVA_OPTS=-Xms128m -Xmx256m -XX:MetaspaceSize=64m -XX:MaxMetaspaceSize=128m

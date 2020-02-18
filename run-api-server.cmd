@@ -4,4 +4,5 @@ set JAVA_HOME=%JAVA_8%
 
 set PATH=%JAVA_HOME%\bin;%PATH%
 
-cd c:\src\caseflow-platform
+%DEV_DRIVE%:
+cd %SRC%\caseflow-platform

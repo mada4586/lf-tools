@@ -1,7 +1,8 @@
 @echo off
 
-setx TOOLS c:\tools /M
-setx SRC c:\src /M
+setx DEV_DRIVE c /M
+setx TOOLS %DEV_DRIVE%:\tools /M
+setx SRC %DEV_DRIVE%:\src /M
 
 setx JAVA_7 %TOOLS%\jdk1.7.0_55 /M
 setx JAVA_8 %TOOLS%\jdk1.8.0_211 /M

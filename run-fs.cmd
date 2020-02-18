@@ -3,7 +3,7 @@
 set JAVA_HOME=%JAVA_8%
 set GRADLE_HOME=%GRADLE_4_7%
 
-set PATH=%JAVA_8%\bin;%GRADLE_HOME%\bin;%PATH%
+set PATH=%JAVA_HOME%\bin;%GRADLE_HOME%\bin;%PATH%
 
 cd %SRC%\file-storage
 call gradle assemble
