@@ -21,5 +21,5 @@ setx NODE_HOME %NODE_10%
 setx MVN_HOME %TOOLS%\apache-maven-3.3.9 /M
 
 setx GRADLE_4_7 %TOOLS%\gradle-4.7 /M
-setx GRADLE_5_6_2 %TOOLS%\gradle-5.6.2 /M
+setx GRADLE_5_6_4 %TOOLS%\gradle-5.6.4 /M
 setx GRADLE_HOME %GRADLE_5_6_2%
