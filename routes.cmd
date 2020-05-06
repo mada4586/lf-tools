@@ -19,3 +19,5 @@ route add 10.128.2.181 mask 255.255.255.255 %LEANFORGE_IP%
 route add 172.16.64.148 mask 255.255.255.255 %LEANFORGE_IP%
 :: Jumphost - live
 route add 10.132.2.181 mask 255.255.255.255 %LEANFORGE_IP%
+:: Remote Desktop of test Exchange 2016
+route add 51.105.192.153 mask 255.255.255.255 %LEANFORGE_IP%
