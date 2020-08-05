@@ -1,4 +1,4 @@
-@echo Java 11 with Gradle 5.6.2
+@echo Java 11 with Gradle 5.6.4
 
 set JAVA_HOME=%JAVA_11%
 set GRADLE_HOME=%GRADLE_5_6_4%

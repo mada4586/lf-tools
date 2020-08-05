@@ -14,12 +14,16 @@ setx JAVA_HOME %JAVA_7%
 :: For API Server
 setx JDK_17 %JAVA_7%
 
+setx NODE_8 %TOOLS%\node-v8.17.0 /M
+setx NODE_8_NPM %TOOLS%\.npm-6.13.4 /M
 setx NODE_10 %TOOLS%\node-v10.16.3 /M
 setx NODE_10_NPM %TOOLS%\.npm-6.9.0 /M
+setx NODE_10_22 %TOOLS%\node-v10.22.0 /M
+setx NODE_10_22_NPM %TOOLS%\.npm-6.14.6 /M
 setx NPM_HOME %NODE_10_NPM%
 setx NODE_HOME %NODE_10%
 setx MVN_HOME %TOOLS%\apache-maven-3.3.9 /M
 
 setx GRADLE_4_7 %TOOLS%\gradle-4.7 /M
 setx GRADLE_5_6_4 %TOOLS%\gradle-5.6.4 /M
-setx GRADLE_HOME %GRADLE_5_6_2%
+setx GRADLE_HOME %GRADLE_5_6_4%

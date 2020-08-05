@@ -13,6 +13,8 @@ route add 13.81.108.99 mask 255.255.255.255 %LEANFORGE_IP%
 route add 52.16.105.122 mask 255.255.255.255 %LEANFORGE_IP%
 :: Kibana - test
 route add 172.16.64.4 mask 255.255.255.255 %LEANFORGE_IP%
+:: Jumphost - sandbox
+route add 51.105.205.34 mask 255.255.255.255 %LEANFORGE_IP%
 :: Jumphost - test
 route add 10.128.2.181 mask 255.255.255.255 %LEANFORGE_IP%
 :: Jumphost - review
