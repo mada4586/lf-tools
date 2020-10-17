@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  mysql-cp:
+    image: "mysql:5.7@sha256:52a28dff3b3ef81d48765f67324629de3c090e9cd8d7c882e2459c4bb778c12d"
+    command: --innodb_buffer_pool_size=1G --innodb_flush_log_at_trx_commit=2 --sql_mode=
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+    ports:
+      - "3305:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
