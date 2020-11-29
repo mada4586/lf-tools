@@ -8,6 +8,7 @@ VALUES
 ('Print_Module', 'ENABLED'),
 ('Doc2Mail_Module', 'ENABLED'),
 ('Enable_Vans_Integration', 'ENABLED'),
+('Eva_Module', 'ENABLED'),
 ('Medcom_Municipality_Referral_Module', 'ENABLED'),
 ('Data_Access_Service', 'DISABLED'),
 ('Email_Module', 'ENABLED');
