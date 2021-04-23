@@ -15,6 +15,8 @@ setx NODE_8 %TOOLS%\node-v8.17.0 /M
 setx NODE_8_NPM %TOOLS%\.npm-6.13.4 /M
 setx NODE_10 %TOOLS%\node-v10.16.3 /M
 setx NODE_10_NPM %TOOLS%\.npm-6.9.0 /M
+setx NODE_12 %TOOLS%\node-v12.18.4 /M
+setx NODE_12_NPM %TOOLS%\.npm-6.14.6 /M
 setx NPM_HOME %NODE_10_NPM%
 setx NODE_HOME %NODE_10%
 setx MVN_HOME %TOOLS%\apache-maven-3.6.0 /M

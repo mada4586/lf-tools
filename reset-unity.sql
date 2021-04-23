@@ -1,6 +1,7 @@
 DELETE FROM unity.application_metadata 
 WHERE NAME IN ('Domain', 'Print_Module', 'Doc2Mail_Module', 'Enable_Vans_Integration',
-'Medcom_Municipality_Referral_Module', 'Data_Access_Service', 'Email_Module');
+'Medcom_Municipality_Referral_Module', 'Data_Access_Service', 'Email_Module',
+'Payouts_Module');
 
 INSERT INTO unity.application_metadata(NAME, DATAVALUE)
 VALUES 
@@ -11,4 +12,5 @@ VALUES
 ('Eva_Module', 'ENABLED'),
 ('Medcom_Municipality_Referral_Module', 'ENABLED'),
 ('Data_Access_Service', 'DISABLED'),
-('Email_Module', 'ENABLED');
+('Email_Module', 'ENABLED'),
+('Payouts_Module', 'ENABLED');

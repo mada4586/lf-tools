@@ -1,0 +1,9 @@
+@echo Node 12
+
+set NODE_HOME=%NODE_12%
+set NPM_HOME=%NODE_12_NPM%
+
+set PATH=%NODE_HOME%;%NPM_HOME%;%PATH%
+
+%DEV_DRIVE%:
+cd %SRC%
