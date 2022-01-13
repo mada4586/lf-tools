@@ -1,0 +1,1 @@
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Test1234" -p 1433:1433 -v c:\Users\mada\Downloads:/mnt/Downloads --name sql2 -h sql2 -d mcr.microsoft.com/mssql/server:2019-latest
