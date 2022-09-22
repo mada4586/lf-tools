@@ -1,9 +1,0 @@
-@echo Node 10.22
-
-set NODE_HOME=%NODE_10_22%
-set NPM_HOME=%NODE_10_22_NPM%
-
-set PATH=%NODE_HOME%;%NPM_HOME%;%PATH%
-
-%DEV_DRIVE%:
-cd %SRC%
